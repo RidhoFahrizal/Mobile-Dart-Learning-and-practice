@@ -8,6 +8,8 @@
 // 4. assert sebagai tools untuk memerikasa properti class
 // Penggunaan asserts di setAge untuk melakukan valdasi bahwa age tidak boleh kurang dari 0
 
+
+
 void setAge(age) {
   assert(age >= 0, 'age CANT be neggative');
   print('Age is set to $age');
@@ -53,7 +55,7 @@ void main() {
     print('Oh ternyata kamu pendek ya ');
   }
   setAge(age);
-
+  
   shoppingChart chart = new shoppingChart();
   chart.addItem(30);
   processOrder('1234');

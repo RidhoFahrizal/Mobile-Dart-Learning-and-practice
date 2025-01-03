@@ -1,3 +1,6 @@
+
+// catatan : berikan enkapsulasi dan juga berikan overloading nya di project ini.....
+
 void main() {
   var budi = Student('Budi', '382736872');
   var joko = GeneralUser('Joko', '908340394304');
